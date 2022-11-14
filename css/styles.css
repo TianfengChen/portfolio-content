@@ -235,14 +235,12 @@ nav li {
 
 
 #BS{
-  background-color:rgb(122, 189, 233);
   background-image: url("../images/main_BS.jpg");
   background-size: cover;
   border: 10px solid rgb(202, 200, 200);
 }
 
 #HY{
-  background-color:rgb(242, 253, 80);
   background-image: url("../images/main_HY.jpg");
   background-size: cover;
   border: 10px solid rgb(202, 200, 200);
@@ -250,7 +248,6 @@ nav li {
 }
 
 #SC{
-  background-color:rgb(248, 76, 76);
   background-image: url("../images/main_SC.jpg");
   background-size: cover;
   border: 10px solid rgb(202, 200, 200);
@@ -258,7 +255,6 @@ nav li {
 }
 
 #GH{
-  background-color:rgb(44, 170, 243);
   background-image: url("../images/main_GH.jpg");
   background-size: cover;
   border: 10px solid rgb(202, 200, 200);
