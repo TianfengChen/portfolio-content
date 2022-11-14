@@ -47,9 +47,7 @@ body {
   background-color: gray;
 }
 
-a{
-  text-decoration: none;
-}
+
 
 a:focus{
   outline: 2px solid black;
@@ -111,20 +109,37 @@ h2 {
 
 
 #BS h2{
-  color: gold;
+  
   border: 20px solid rgba(255, 242, 0, 0.7);
 }
 #HY h2{
-  color: rgb(253, 93, 93);
+  
   border: 20px solid rgba(255, 255, 255, 0.7);
 }
 #SC h2{
-  color: rgb(255, 0, 0);
+  
   border: 20px solid rgba(216, 25, 25, 0.7);
 }
 #GH h2{
-  color: rgb(11, 224, 252);
+  
   border: 20px solid rgba(78, 190, 218, 0.7);
+}
+
+a{
+  text-decoration: none;
+}
+
+#BS a{
+  color: gold;
+}
+#HY a{
+  color: rgb(255, 255, 255);
+}
+#SC a{
+  color: rgb(255, 0, 0);
+}
+#GH a{
+  color: rgb(11, 224, 252);
 }
 
 h3 {
@@ -284,7 +299,7 @@ footer{
 
 
 
-@media all and (min-width: 1000px){
+@media all and (min-width: 1200px){
 
   .container{
     display:grid;
