@@ -83,7 +83,10 @@ h2 {
   text-align: center;
 }
 
-#main_pag h2 {
+
+
+
+#main_page h2 {
   font-family: 'Roboto Condensed', sans-serif;
   font-size:50px;
   text-decoration: #70bd3d;
@@ -105,6 +108,7 @@ h2 {
                 1px -1px 0 rgb(255, 242, 65),
                -1px -1px 0 rgb(255, 242, 65);*/
 }
+
 
 #BS h2{
   color: gold;
@@ -240,7 +244,7 @@ nav li {
 
 #SC{
   background-color:rgb(248, 76, 76);
-  background-image: url("../images/main_SC_1.jpg");
+  background-image: url("../images/main_SC_1.JPG");
   background-size: cover;
   border: 10px solid rgb(202, 200, 200);
 
@@ -248,7 +252,7 @@ nav li {
 
 #GH{
   background-color:rgb(44, 170, 243);
-  background-image: url("../images/main_GH_1.jpg");
+  background-image: url("../images/main_GH_1.JPG");
   background-size: cover;
   border: 10px solid rgb(202, 200, 200);
 
