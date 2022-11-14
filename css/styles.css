@@ -299,7 +299,7 @@ footer{
 
 
 
-@media all and (min-width: 2000px){
+@media all and (min-width: 1500px){
 
   .container{
     display:grid;
