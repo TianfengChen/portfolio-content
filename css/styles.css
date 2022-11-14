@@ -224,7 +224,14 @@ nav li {
   height: 400px;
 }
 
+@keyframes logo_animate{
+  0% {width: 50px; opacity: 0;}
+  100% {width: 400px; opacity: 1;}
+}
 
+#gallery {
+  animation: logo_animate 3s none;
+}
 
 
 #BS{
@@ -278,6 +285,8 @@ nav{
 footer{
   grid-column: 1 / span 3;
 }
+
+
 
 @media all and (min-width: 800px){
 
