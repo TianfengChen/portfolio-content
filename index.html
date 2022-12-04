@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <title>Four Great Traditions in Chinese cuisine</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
   </head>
 
 
@@ -72,8 +73,10 @@
         <h2 id = "gallery"><i class="fa-solid fa-crown"></i> Gallery <i class="fa-solid fa-crown"></i></h2>
         <div class="gallery">
           
-          <img id="BS_ga_carp" src="images/BS_Lu_Sweet_and_sour_carp.png" alt="Sweet and Sour Carp" >
+          <img id="BS_ga_carp" src="images/BS_zaoliu_fish_fillet.png" alt="Shandong cuisine Zaoliu Fish Fillet" >
+          <img id="BS_ga_fish" src="images/BS_Lu_Sweet_and_sour_carp.png" alt="Shandong cuisine Sweet and Sour carp" >
           <img id="HY_ga_shrp" src="images/Gallery_HY_rose_shape_shrimp.png" alt="Huaian-Yangzhou cuisine rose shape shrimp" >
+          <img id="HY_ga_md"   src="images/Gallery_HY_Chinese_rice_pastries.PNG" alt="Huaian-Yangzhou cuisine Chinese rice pastries" >
           <img id="SC_ga_chik" src="images/Gallery_SC_Geleshan_spicy_chicken.png" alt="Sichuan-Chongqing cuisine Geleshan spicy chicken" >
           <img id="SC_ga_beef" src="images/Gallery_SC_fried_beef.png" alt="Sichuan-Chongqing cuisine fried beef" >
           <img id="SC_ga_fish" src="images/Gallery_SC_vine_pepper_fish_fillet.png" alt="Sichuan-Chongqing cuisine vine pepper fish fillet" >
@@ -83,6 +86,25 @@
       </main>
       
       <footer id = 'main_footer'>
+        <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+          <div class="row">
+            <label class="required" for="name">Your name:</label><br />
+            <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+            <span id="name_validation" class="error_message"></span>
+          </div>
+          <div class="row">
+            <label class="required" for="email">Your email:</label><br />
+            <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+            <span id="email_validation" class="error_message"></span>
+          </div>
+          <div class="row">
+            <label class="required" for="message">Your message:</label><br />
+            <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+            <span id="message_validation" class="error_message"></span>
+          </div>
+            
+            <input id="submit_button" type="submit" value="Send email" />
+        </form>
       </footer>
       
     </div>
